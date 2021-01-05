@@ -1,0 +1,13 @@
+﻿COUNT     -> Quantidade de linhas da seleção
+   =      -> Igualdade
+   <>     -> Diferença
+as 'nome' -> Variável
+
+SELECT COUNT(Codigo) as Total FROM Pedido
+Total = 100
+
+SELECT COUNT(Codigo) as Total123 FROM Pedido WHERE CodigoComprador = 123
+Total123 = 15
+
+SELECT COUNT(Codigo) as TotalFinal FROM Pedidos WHERE CodigoComprador <> 123
+TotalFinal = 85
