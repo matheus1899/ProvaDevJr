@@ -5,7 +5,7 @@ namespace ProvaDevJr
 {
     class Tarefa1
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             List<int> listaOriginal = new List<int>() { 7, 5, 3, 9, 6, 4, 1 };
             List<int> listaNova = new List<int>();
